@@ -228,6 +228,7 @@ li .score-over {
     height: 100vh;
     margin: 1rem auto;
     max-width: 600px;
+    padding: 1.5rem;
   }
   .main-left-card{
     border-radius: 1.5rem;
@@ -247,13 +248,14 @@ li .score-over {
   }
   .summary-right-card{
     height: 25rem;
-    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0px 20px 2px rgba(0, 0, 0, 0.4);
     border-radius: 0 1.5rem 1.5rem 0;
-    margin-left: 0;
-    position: relative;
-    z-index: 1;
+    margin: -1rem;
+    padding: 1.5rem 3rem 3rem 3rem;
+   
   }
   .card-container{
     position: relative;
   }
+  
 }
